@@ -1,19 +1,24 @@
 {
   "defaultSeverity": "warning",
-  "extends": [
-    "tslint:recommended"
-  ],
+  "extends": ["tslint:latest", "tslint-config-prettier"],
   "linterOptions": {
-    "exclude": [
-      "node_modules/**"
-    ]
+    "exclude": ["node_modules/**"]
   },
   "rules": {
-    "quotemark": [true, "single"],
-    "indent": [true, "spaces", 2],
+    "arrow-return-shorthand": true,
+    "class-name": true,
     "interface-name": false,
     "ordered-imports": false,
     "object-literal-sort-keys": false,
-    "no-consecutive-blank-lines": false
+    "no-consecutive-blank-lines": false,
+    "no-unnecessary-initializer": true,
+    "no-unused-expression": true,
+    "no-var-keyword": true,
+    "prefer-const": true,
+    "triple-equals": [true, "allow-null-check"],
+    "no-submodule-imports": false,
+    "no-implicit-dependencies": false,
+    "resolveJsonModule": true,
+    "no-shadowed-variable": false
   }
 }

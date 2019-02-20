@@ -1,17 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>b2b-app</title>
+    <!-- Prefetchs -->
+    <link href="https://static.spicemoney.com" rel="preconnect" />
+    <link href="https://www.spicemoney.com" rel="canonical" />
+    <!-- Prefetchs End -->
+
+    <!-- SEO -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Spice Money, a business unit of Spice Digital, uses technology to enable next door kirana store to function as a mini bank branch.It provides innovative fintech Solution helping millions."
+    />
+    <meta name="image" content="https://static.spicemoney.com/spicelogo.png" />
+    <meta name="author" content="Spice Money" />
+    <meta
+      name="subject"
+      content="Financial Merchant Services / Innovative Fintech Solution Provider / Fintech Services"
+    />
+    <meta
+      name="classification"
+      content="Spice Money is bridging the digital divide between India and Bharat. It serves 4 million unique customers and processes 30 million transactions annually through its network of 70,000 transacting agents. It offers various services like cash deposit, cash withdrawal, balance inquiry, bill payment, aadhaar enabled services, railway ticketing etc."
+    />
+    <meta
+      name="keywords"
+      content="Spice Money, fintech india, How to become Spice Money Agent? Become a Spice Money Agent, Spice Money Agent, What is Spice Money? spice money logo, spice money b2b, spice money download, spice money distributor, spice money login, Fintech services, Fintech Company/ies, Fintech Startups, Fintech meaning, Top 10 Fintech Solutions, DMT, Direct Money Transfer, AePS, Aadhaar Enabled Payment Solution, BBPS, Bharat Bill Payment System, Utility payment solution, mPOS, cash@POS, cash deposit services, cash withdrawal services, IRCTC, indian railway catering and tourism corporation limited, irctc seat, irctc tourism, irctc agent registration, irctc app download, how to transfer money, money transfer services, transfers money online, ticket booking, e-KYC,Financial Service provider, Airline Booking, Insurance, Train Ticket, PAN, SpiceMoney India, Spice Money Noida"
+    />
+    <meta name="language" content="en" />
+    <meta name="distribution" content="Global" />
+    <meta name="country" content="India" />
+    <meta itemprop="image" content="https://static.spicemoney.com/spicelogo.png" />
+    <!-- SEO End -->
+
+    <!-- Facebook -->
+    <meta property="fb:page_id" content="908559869321798" />
+    <meta name="fb:admins" content="530577258,652788678" />
+    <!-- Facebook End -->
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Spice Money" />
+    <meta
+      name="twitter:description"
+      content="Spice Money, a business unit of Spice Digital, uses technology to enable next door kirana store to function as a mini bank branch.It provides innovative fintech Solution helping millions."
+    />
+    <meta name="twitter:site" content="SpiceMoneyIndia" />
+    <meta name="twitter:app:country" content="in" />
+    <meta name="twitter:app:name:googleplay" content="Spice Money Merchant" />
+    <meta name="twitter:app:id:googleplay" content="in.spicemudra" />
+    <meta name="twitter:app:url:googleplay" content="https://play.google.com/store/apps/details?id=in.spicemudra" />
+    <meta name="twitter:image:src" content="https://static.spicemoney.com/spicelogo.png" />
+    <!-- Twitter End-->
+
+    <!-- Open Graph -->
+    <meta name="og:title" content="Spice Money" />
+    <meta
+      name="og:description"
+      content="Spice Money, a business unit of Spice Digital, uses technology to enable next door kirana store to function as a mini bank branch.It provides innovative fintech Solution helping millions."
+    />
+    <meta name="og:image" content="https://static.spicemoney.com/spicelogo.png" />
+    <meta name="og:url" content="https://www.spicemoney.com/" />
+    <meta name="og:site_name" content="Spice Money" />
+    <meta name="og:locale" content="en_IN" />
+    <!-- Open Graph End -->
+
+    <!-- Webpack favicons -->
+    <link rel="shortcut icon" href="<%= webpackConfig.output.publicPath %>favicon.ico" />
+    <meta name="msapplication-config" content="/img/icons/browserconfig.xml" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/img/icons/android-chrome-192x192.png" />
+    <!-- Webpack favicons End -->
+
+    <!-- Font Icons -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons" rel="stylesheet" />
+    <!-- Font Icons End -->
+
+    <!-- Auto Polyfills -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.js?features=default,Promise.prototype.finally,Object.values,Array.prototype.includes,String.prototype.includes,String.prototype.repeat,Array.prototype.find,Math.cbrt"></script>
+    <!-- Auto Polyfills End -->
+
+    <title>Spice Money</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons" />
   </head>
+
   <body>
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, 'script', 'facebook-jssdk');
+    </script>
+
     <noscript>
-      <strong>We're sorry but b2b-app doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong
+        >We're sorry but Spice Money doesn't work without JavaScript enabled. Please enable it to continue.</strong
+      >
     </noscript>
+
     <div id="app"></div>
+
     <!-- built files will be auto injected -->
   </body>
 </html>

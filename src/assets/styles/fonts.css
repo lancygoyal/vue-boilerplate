@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'DidactGothic-Regular';
+  src: url('../fonts/DidactGothic-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/DidactGothic-Regular.woff') format('woff'),
+    url('../fonts/DidactGothic-Regular.ttf') format('truetype'),
+    url('../fonts/DidactGothic-Regular.svg#DidactGothic-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
