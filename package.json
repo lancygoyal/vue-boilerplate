@@ -17,7 +17,7 @@
     "axios": "^0.18.0",
     "babel-plugin-idx": "^2.4.0",
     "idx": "^2.5.3",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "nprogress": "^0.2.0",
     "register-service-worker": "^1.5.2",
     "vue": "^2.5.22",
